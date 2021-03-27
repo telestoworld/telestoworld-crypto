@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/node:8
 
-    working_directory: /tmp/decentraland-crypto
+    working_directory: /tmp/telestoworld-crypto
 
     steps:
       - checkout
@@ -46,7 +46,7 @@ jobs:
           --minerthreads=1
           --dev
 
-    working_directory: /tmp/decentraland-crypto
+    working_directory: /tmp/telestoworld-crypto
 
     steps:
       - checkout
@@ -73,7 +73,7 @@ jobs:
     docker:
       - image: circleci/node:8
 
-    working_directory: /tmp/decentraland-crypto
+    working_directory: /tmp/telestoworld-crypto
 
     steps:
       - checkout

@@ -1,7 +1,7 @@
 {
-  "name": "dcl-crypto",
-  "version": "0.0.0-development",
-  "description": "Crypto auth for Decentraland",
+  "name": "tcl-crypto",
+  "version": "0.0.1-development",
+  "description": "Crypto auth for telestoworld",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
@@ -29,17 +29,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decentraland/decentraland-crypto.git"
+    "url": "git+https://github.com/telestoworld/telestoworld-crypto.git"
   },
   "keywords": [
-    "decentraland"
+    "telestoworld"
   ],
-  "author": "Decentraland",
+  "author": "telestoworld",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/decentraland/decentraland-crypto/issues"
+    "url": "https://github.com/telestoworld/telestoworld-crypto/issues"
   },
-  "homepage": "https://github.com/decentraland/decentraland-crypto#readme",
+  "homepage": "https://github.com/telestoworld/telestoworld-crypto#readme",
   "dependencies": {
     "eth-crypto": "^1.5.1",
     "web3x": "^4.0.6"
@@ -50,7 +50,7 @@
     "@types/sinon": "^7.5.1",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "dcl-tslint-config-standard": "^1.0.1",
+    "tcl-tslint-config-standard": "^1.0.1",
     "husky": "^1.0.1",
     "mocha": "^5.2.0",
     "nyc": "^14.1.1",

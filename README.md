@@ -1,8 +1,8 @@
-# DCL Auth Crypto Lib
+# tcl Auth Crypto Lib
 
-[![NPM version](https://badge.fury.io/js/dcl-crypto.svg)](https://npmjs.org/package/dcl-crypto@latest)
-[![Install Size](https://packagephobia.now.sh/badge?p=dcl-crypto@latest)](https://packagephobia.now.sh/result?p=dcl-crypto@latest)
+[![NPM version](https://badge.fury.io/js/tcl-crypto.svg)](https://npmjs.org/package/tcl-crypto@latest)
+[![Install Size](https://packagephobia.now.sh/badge?p=tcl-crypto@latest)](https://packagephobia.now.sh/result?p=tcl-crypto@latest)
 
 ## How to Install
 
-`npm i dcl-crypto`
+`npm i tcl-crypto`

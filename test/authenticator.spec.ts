@@ -21,7 +21,7 @@ const PERSONAL_SIGNATURE =
 const CONTRACT_WALLET_SIGNATURE =
   '0xea441043d745d130e8a2560d7c5e8a9e9d9dae8530015f3bd90eaea5040c81ca419a2a2f29c48439985a58fa7aa7b4bb06e4111a054bfa8095b65b2f3c1ecae41ccdb959d51dda310325d0294cf6a9f0691d08abfb9978d4f2e7e504042b663ef2123712bf864ef161cf579c4b3e3faf3767865a5bb4535d9fc2b9f6664e403d241b'
 
-describe('Decentraland Crypto', function () {
+describe('telestoworld Crypto', function () {
   this.timeout(999999)
 
   describe('Get signature type', function () {
@@ -68,7 +68,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
           payload:
-            'Decentraland Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
+            'telestoworld Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
           signature:
             '0x03524dbe44d19aacc8162b4d5d17820c370872de7bfd25d1add2b842adb1de546b454fc973b6d215883c30f4c21774ae71683869317d773f27e6bfaa9a2a05101b36946c3444914bb93f17a29d88e2449bcafdb6478b4835102c522197fa6f63d13ce5ab1d5c11c95db0c210fb4380995dff672392e5569c86d7c6bb2a44c53a151c'
         },
@@ -104,7 +104,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
           payload:
-            'Decentraland Login\nEphemeral address: 0x390Be489333A19608634B1fBd5434129786Ab1E1\nExpiration: 2020-02-21T11:37:38.686Z',
+            'telestoworld Login\nEphemeral address: 0x390Be489333A19608634B1fBd5434129786Ab1E1\nExpiration: 2020-02-21T11:37:38.686Z',
           signature:
             '0xbef29294f9e5ad138824d7dc78baf4c5ca2d15d5fe39ea8c80c29463d3a8dafc362a61f5cd34cbe7a2a68d1ca6062331b9b2ff01db31c1c95bdc42454ce7c6da1cdca27f6f34993fe3e31273dfcd4070c005a7448e8971c259441b206d6b0dab4f11c14a31de529fa59f2a326321f5100fbb0ace11250457e3f3f731367529204c1c'
         },
@@ -135,7 +135,7 @@ describe('Decentraland Crypto', function () {
       const authority = '0x3B21028719a4ACa7EBee35B0157a6F1B0cF0d0c5'
       const authLink = {
         type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
-        payload: `Decentraland Login\nEphemeral address: ${ephemeral}\nExpiration: Tue Jan 21 2020 16:34:32 GMT+0000 (Coordinated Universal Time)`,
+        payload: `telestoworld Login\nEphemeral address: ${ephemeral}\nExpiration: Tue Jan 21 2020 16:34:32 GMT+0000 (Coordinated Universal Time)`,
         signature: CONTRACT_WALLET_SIGNATURE
       }
 
@@ -200,7 +200,7 @@ describe('Decentraland Crypto', function () {
       const authority = '0x3B21028719a4ACa7EBee35B0157a6F1B0cF0d0c5'
       const authLink = {
         type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
-        payload: `Decentraland Login\r\nEphemeral address: ${ephemeral}\r\nExpiration: Tue Jan 21 2020 16:34:32 GMT+0000 (Coordinated Universal Time)`,
+        payload: `telestoworld Login\r\nEphemeral address: ${ephemeral}\r\nExpiration: Tue Jan 21 2020 16:34:32 GMT+0000 (Coordinated Universal Time)`,
         signature: CONTRACT_WALLET_SIGNATURE
       }
 
@@ -233,7 +233,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_PERSONAL_EPHEMERAL,
           payload:
-            'Decentraland Login\r\nEphemeral address: 0xd59c1F11bF5BDd5ae7305FA36D66089343f1C8FC\r\nExpiration: 2020-03-15T00:45:29.278Z',
+            'telestoworld Login\r\nEphemeral address: 0xd59c1F11bF5BDd5ae7305FA36D66089343f1C8FC\r\nExpiration: 2020-03-15T00:45:29.278Z',
           signature:
             '0x0fc56c45d201d17339aa84b39469d08b01e71bf992b3b709ae6babca7ab51fa63ef05436551effdd65981cf62624876b3e7a745e01738b6e17c8b43890feaaa81c'
         },
@@ -271,7 +271,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_PERSONAL_EPHEMERAL,
           payload:
-            'Decentraland Login\nEphemeral address: 0x08bdc29abFB11C6a1BB201b7EF3c41273aEA23EA\nExpiration: 2020-03-16T20:38:09.875Z',
+            'telestoworld Login\nEphemeral address: 0x08bdc29abFB11C6a1BB201b7EF3c41273aEA23EA\nExpiration: 2020-03-16T20:38:09.875Z',
           signature:
             '0x3a66ecdb318c1b6a72aaf991418804044ad30a2015d0846f52240e7bdb533853736e9308c619593a7ed20ecf9361b988fbf9e4957a12f062276eda2a37b7dfda01'
         },
@@ -302,7 +302,7 @@ describe('Decentraland Crypto', function () {
       const authLink = {
         type: AuthLinkType.ECDSA_PERSONAL_EPHEMERAL,
         payload:
-          'Decentraland Login\nEphemeral address: 0x1F19d3EC0BE294f913967364c1D5B416e6A74555\nExpiration: 2020-01-15T00:45:29.278Z',
+          'telestoworld Login\nEphemeral address: 0x1F19d3EC0BE294f913967364c1D5B416e6A74555\nExpiration: 2020-01-15T00:45:29.278Z',
         signature: PERSONAL_SIGNATURE
       }
       try {
@@ -376,7 +376,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
           payload:
-            'Decentraland Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
+            'telestoworld Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
           signature:
             '0x03524dbe44d19aacc8162b4d5d17820c370872de7bfd25d1add2b842adb1de546b454fc973b6d215883c30f4c21774ae71683869317d773f27e6bfaa9a2a05101b36946c3444914bb93f17a29d88e2449bcafdb6478b4835102c522197fa6f63d13ce5ab1d5c11c95db0c210fb4380995dff672392e5569c86d7c6bb2a44c53a151c'
         },
@@ -413,7 +413,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
           payload:
-            'Decentraland Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
+            'telestoworld Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
           signature:
             '0x03524dbe44d19aacc8162b4d5d17820c370872de7bfd25d1add2b842adb1de546b454fc973b6d215883c30f4c21774ae71683869317d773f27e6bfaa9a2a05101b36946c3444914bb93f17a29d88e2449bcafdb6478b4835102c522197fa6f63d13ce5ab1d5c11c95db0c210fb4380995dff672392e5569c86d7c6bb2a44c53a151c'
         },
@@ -450,7 +450,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
           payload:
-            'Decentraland Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
+            'telestoworld Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
           signature:
             '0x03524dbe44d19aacc8162b4d5d17820c370872de7bfd25d1add2b842adb1de546b454fc973b6d215883c30f4c21774ae71683869317d773f27e6bfaa9a2a05101b36946c3444914bb93f17a29d88e2449bcafdb6478b4835102c522197fa6f63d13ce5ab1d5c11c95db0c210fb4380995dff672392e5569c86d7c6bb2a44c53a151c'
         },
@@ -484,7 +484,7 @@ describe('Decentraland Crypto', function () {
         {
           type: AuthLinkType.ECDSA_EIP_1654_EPHEMERAL,
           payload:
-            'Decentraland Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
+            'telestoworld Login\nEphemeral address: 0x69fBdE5Da06eb76e8E7F6Fd2FEEd968F28b951a5\nExpiration: Tue Aug 06 7112 10:14:51 GMT-0300 (Argentina Standard Time)',
           signature:
             '0x03524dbe44d19aacc8162b4d5d17820c370872de7bfd25d1add2b842adb1de546b454fc973b6d215883c30f4c21774ae71683869317d773f27e6bfaa9a2a05101b36946c3444914bb93f17a29d88e2449bcafdb6478b4835102c522197fa6f63d13ce5ab1d5c11c95db0c210fb4380995dff672392e5569c86d7c6bb2a44c53a151c'
         },

@@ -220,7 +220,7 @@ export class Authenticator {
   }
 
   static getEphemeralMessage(ephemeralAddress: string, expiration: Date) {
-    return `Decentraland Login\nEphemeral address: ${ephemeralAddress}\nExpiration: ${expiration.toISOString()}`
+    return `telestoworld Login\nEphemeral address: ${ephemeralAddress}\nExpiration: ${expiration.toISOString()}`
   }
 }
 
@@ -375,7 +375,7 @@ export function parseEmphemeralPayload(
   payload: string
 ): { message: string; ephemeralAddress: string; expiration: number } {
   // authLink payload structure: <human-readable message >\nEphemeral address: <ephemeral-eth - address >\nExpiration: <timestamp>
-  // authLink payload example: Decentraland Login\nEphemeral address: 0x123456\nExpiration: 2020 - 01 - 20T22: 57: 11.334Z
+  // authLink payload example: telestoworld Login\nEphemeral address: 0x123456\nExpiration: 2020 - 01 - 20T22: 57: 11.334Z
   const message = payload.replace(/\r/g, '')
   const payloadParts: string[] = message.split('\n')
   const ephemeralAddress: string = payloadParts[1].substring(

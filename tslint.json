@@ -1,6 +1,6 @@
 {
   "extends": [
-    "dcl-tslint-config-standard",
+    "tcl-tslint-config-standard",
     "tslint-plugin-prettier"
   ],
   "rules": {
