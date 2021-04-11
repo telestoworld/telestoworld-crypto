@@ -1,5 +1,5 @@
 {
-  "name": "tcl-crypto",
+  "name": "tw-crypto",
   "version": "0.0.2-development",
   "description": "Crypto auth for telestoworld",
   "main": "dist/index.js",
